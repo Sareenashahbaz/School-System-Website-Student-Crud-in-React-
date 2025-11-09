@@ -1,0 +1,23 @@
+/* src/index.css - small global styles */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+
+:root {
+  --emerald: #2e8b57;
+  --emerald-dark: #236b45;
+  --ivory: #fafaf5;
+  --charcoal: #333333;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  background: var(--ivory);
+  color: var(--charcoal);
+}
+
+/* container max width like earlier sample */
+.container {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
